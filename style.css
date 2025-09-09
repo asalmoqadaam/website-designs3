@@ -35,6 +35,7 @@ body {
   font-size: 20px;
   align-items: center;
   font-family: 'Playfair Display', serif;
+  cursor: pointer;
 }
 
 .name {
@@ -290,11 +291,19 @@ body {
 
 .screen-2 {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #2f4686 100%);
   display: flex;
+  position: relative;
+  /*
+  background-image: url("neon10.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
   position: relative;}
-  
+  */
+}
   .text {
     position: absolute;
     top: 30%;          /* adjust up/down */
@@ -349,7 +358,7 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;  
-    transition: width 0.4s ease-in-out;     
+    transition: width 0.4s ease-in-out; 
   }
   .side-menu.open {
     width: 200px;               /* full width */
@@ -458,9 +467,9 @@ body {
     text-align: center;
     box-sizing: border-box;
       box-shadow: 
-        0 0 10px rgba(0, 255, 255, 0.4),   /* cyan glow */
-        0 0 0px rgba(255, 0, 255, 0.3),   /* magenta glow */
-        0 0 60px rgba(0, 102, 255, 0.25);  /* blue depth */
+        0 10px 70px rgba(0, 255, 255, 0.4),   /* cyan glow */
+        10px 0 50px rgba(255, 0, 255, 0.3),   /* magenta glow */
+        10px 0 60px rgba(0, 102, 255, 0.25);  /* blue depth */
       
       backdrop-filter: blur(10px); /* optional: glassy background */
   }
@@ -472,7 +481,7 @@ body {
     border-radius: 10px;
     border: none;
     outline: none;
-    background: rgba(186, 181, 181, 0.1);
+    background:rgba(128, 128, 128, 0.267);
     color: white;
     border-bottom-left-radius: 80px;
     border-top-right-radius: 80px;  
@@ -650,6 +659,12 @@ body {
     width: 100%;           
     height: 100%;
   }
+  .image{
+   display: flex;
+  }
+
+
+
   
   /* Animation settings */
   :root {
