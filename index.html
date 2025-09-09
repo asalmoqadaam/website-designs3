@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Website components</title>
+</head>
+
+<body>
+  <div class="scroll-wrapper">
+    <section class="screen screen-1">
+      <p class="name">Design 1</p>
+      <div class="search-box">
+        <input class="search-input" type="text" placeholder="Search">
+        <button class="search-btn">🔍</button>
+      </div>
+      <!--main content-->
+      <div class="panel">
+        <div class="niche" aria-label="Concave architectural niche">
+          <div class="niche-card">
+            <h2>Content Area</h2>
+            <p>This is the main content of the website</p>
+            <button class="cta">Discover More</button>
+          </div>
+          <div class="arch-depth-layer"></div>
+          <div class="arch-deepest-layer"></div>
+        </div>
+      </div>
+      <!--side menu option-->
+      <div class="menu-options">
+        <button id="home-page">Home</button>
+        <button id="about-page">About us</button>
+        <button id="contact-page">Contact</button>
+        <button id="services-page">Services</button>
+      </div>
+      <div class="text-grid">
+        <div class="text-box">
+          <h4>Soft Shadows</h4>
+          <p>Layered depth with restraint.</p>
+        </div>
+        <div class="text-box">
+          <h4>Calm Motion</h4>
+          <p>Smooth, gentle interactions.</p>
+        </div>
+        <div class="text-box">
+          <h4>Readable Type</h4>
+          <p>Elegant sereff-like architecture.</p>
+        </div>
+      </div>
+  </div>
+  </section>
+  <section class="screen screen-2">
+    <div class="text">
+      <span class="flicker one">D</span><span>E</span><span>S</span><span>I<span class="flicker two">G</span></span><span>N</span><span> 2</span>
+    </div>
+    <div class="side-menu">
+      <ul class="menu-options-2">
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+  
+        <li><a href="#"><span class="material-symbols-outlined">home</span> Home</a></li>
+        <li><a href="#"><span class="material-symbols-outlined">info</span> About</a></li>
+        <li><a href="#"><span class="material-symbols-outlined">build</span> Services</a></li>
+        <li><a href="#"><span class="material-symbols-outlined">mail</span> Contact</a></li>
+  
+        <li class="dropdown">
+          <a href="#"><span class="material-symbols-outlined">wallet</span> Payment ▼</a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i class="fa-solid fa-credit-card"></i> Credit Card</a></li>
+            <li><a href="#"><i class="fa-brands fa-paypal"></i> PayPal</a></li>
+            <li><a href="#"><i class="fa-solid fa-building-columns"></i> Bank Transfer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="sign-in-box">
+      <h2>Sign In</h2>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button>Sign In</button>
+      <p><a href="#">Forgot password?</a></p>
+    </div>
+  </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
